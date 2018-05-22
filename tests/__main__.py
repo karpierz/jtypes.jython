@@ -28,7 +28,7 @@ def test_suite(names=None, omit=()):
     return tests
 
 
-def runTest():
+def main():
 
     from jt.jvm.platform import JVMFinder
     jvm_path = JVMFinder().get_jvm_path()
@@ -44,11 +44,7 @@ def runTest():
     sys.exit(0 if result.wasSuccessful() else 1)
 
 
-def main():
-
+if __name__.rpartition(".")[-1] == "__main__":
     # logging.basicConfig(level=logging.INFO)
     # logging.basicConfig(level=logging.DEBUG)
-    runTest()
-
-
-main()
+    main()
