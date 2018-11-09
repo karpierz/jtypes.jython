@@ -8,11 +8,11 @@ Java Embedded Python.
 Overview
 ========
 
-  | jtypes.jython embeds CPython in Java.
+  | **jtypes.jython** embeds CPython in Java.
   | It is safe to use in a heavily threaded environment.
   |
-  | jtypes.jython is a Python Java package, based on the ctypes FFI library.
-  | It is an implementation of substantial part of Jython Java bridge and API
+  | **jtypes.jython** is a Python Java package, based on the *ctypes* or *cffi* library.
+  | It is an implementation of substantial part of **Jython** Java bridge and API
     by reimplementing its functionality and in a clean CPython.
 
 About Jython:
@@ -22,8 +22,8 @@ Borrowed from the `original website <http://www.jython.org/archive/22/>`__:
 
   **What is Jython?**
 
-  Jython is an implementation of the high-level, dynamic, object-oriented language Python
-  seamlessly integrated with the Java platform. The predecessor to Jython, JPython,
+  **Jython** is an implementation of the high-level, dynamic, object-oriented language
+  Python seamlessly integrated with the Java platform. The predecessor to Jython, JPython,
   is certified as 100% Pure Java. Jython is freely available for both commercial and
   non-commercial use and is distributed with source code. Jython is complementary to Java
   and is especially suited for the following tasks:
@@ -52,7 +52,7 @@ Prerequisites:
 + Python 2.7 or higher or 3.4 or higher
 
   * http://www.python.org/
-  * 2.7 and 3.4 are primary test environments.
+  * 2.7 and 3.6 are primary test environments.
 
 + pip and setuptools
 
@@ -100,4 +100,4 @@ License
 Authors
 =======
 
-* Adam Karpierz <python@python.pl>
+* Adam Karpierz <adam@karpierz.net>
