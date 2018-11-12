@@ -10,7 +10,9 @@ Overview
 
   | **jtypes.jython** embeds CPython in Java.
   | It is safe to use in a heavily threaded environment.
-  |
+
+  `PyPI record`_.
+
   | **jtypes.jython** is a Python Java package, based on the *ctypes* or *cffi* library.
   | It is an implementation of substantial part of **Jython** Java bridge and API
     by reimplementing its functionality and in a clean CPython.
@@ -18,7 +20,7 @@ Overview
 About Jython:
 -------------
 
-Borrowed from the `original website <http://www.jython.org/archive/22/>`__:
+Borrowed from the `original website`_:
 
   **What is Jython?**
 
@@ -70,11 +72,11 @@ To ensure everything is running correctly you can run the tests using::
 Development
 ===========
 
-Visit `development page <https://github.com/karpierz/jtypes.jython>`__
+Visit `development page`_
 
 Installation from sources:
 
-Clone the `sources <https://github.com/karpierz/jtypes.jython>`__ and run::
+Clone the `sources`_ and run::
 
     python -m pip install ./jtypes.jython
 
@@ -101,3 +103,8 @@ Authors
 =======
 
 * Adam Karpierz <adam@karpierz.net>
+
+.. _PyPI record: https://pypi.python.org/pypi/jtypes.jython
+.. _original website: http://www.jython.org/archive/22/
+.. _development page: https://github.com/karpierz/jtypes.jython
+.. _sources: https://github.com/karpierz/jtypes.jython

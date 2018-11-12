@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.0.3a1 (2018-11-08)
+0.0.3a2 (2018-11-08)
 --------------------
 - Update of the required setuptools version.
 - Minor setup and tests improvements.
