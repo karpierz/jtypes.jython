@@ -3,12 +3,15 @@ include CHANGES.rst
 include LICENSE
 include tox.ini
 
-graft jt
+graft src
 
 graft docs
 prune docs/_build
+recursive-exclude docs *.org *.old *.new
 
 graft tests
+exclude tests/_info_.txt
+recursive-exclude tests *.org *.old *.new
 
 global-exclude .build .build.*
 global-exclude *.py[co] __pycache__
