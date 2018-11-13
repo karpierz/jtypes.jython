@@ -8,6 +8,7 @@ graft src
 graft docs
 prune docs/_build
 recursive-exclude docs *.org *.old *.new
+exclude docs/jython.jar
 
 graft tests
 exclude tests/_info_.txt
